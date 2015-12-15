@@ -1,0 +1,28 @@
+.remark-slide-content {
+    .emoji {
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        margin-top: -0.25em;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .pull-left {
+        float: left;
+    }
+    .pull-right {
+        float: right;
+    }
+    .pull-left, .pull-right {
+        width: 48%;
+        p, ul, ol, pre, img {
+            max-width: 100%;
+        }
+        ~ p, ~ ul, ~ ol, ~ pre {
+            clear: both;
+        }
+    }
+}
