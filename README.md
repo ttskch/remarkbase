@@ -48,6 +48,22 @@ $ gulp serve
 
 Run `gulp serve` and edit your slide or theme. When you save some changes gulp automatically builds it and reloads browser.
 
+### Export to PDF (via Google Chrome)
+
+1. `⌘+P`
+2. Set `Print to PDF` to `Destination`
+3. Set `None` to `Margins`
+4. **Now maybe your preview is not beautiful** :sweat:
+5. Then, change your window size and `⌘+P` again
+6. Now maybe your preview was changed :flushed:
+7. So **you can adjust window size to beautify the preview**
+
+Maybe the best window size is different for each environment. Just to tell you, on my environment, 910 x 682 of viewport size is the best.
+
+FYI, to change window size [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) Extension is so useful.
+
+> See also [gnab/remark#50](https://github.com/gnab/remark/issues/50) for details of this feature.
+
 ## Features of template
 
 ### Emoji ready
