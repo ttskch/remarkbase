@@ -89,12 +89,12 @@ gulp.task('watch', ['build'], function () {
 });
 
 gulp.task('slide', function (target) {
-    gulp.src(target)
+    gulp.src(target || 'slides/sample.md')
         .pipe(symlink('slide.md', {force: true}));
 });
 
 gulp.task('theme', function (target) {
-    gulp.src(target)
+    gulp.src(target || 'themes/default')
         .pipe(symlink('theme', {force: true}));
 });
 

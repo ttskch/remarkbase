@@ -9,6 +9,8 @@ $ git clone git@github.com:qckanemoto/remarkbase.git
 $ cd remarkbase
 $ npm install --global gulp   # if you need
 $ npm install
+$ gulp theme   # link the default theme
+$ gulp slide   # link the sample slide
 $ gulp serve   # the sample slide will be shown on your browser
 ```
 
