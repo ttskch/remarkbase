@@ -1,5 +1,7 @@
 node_modules
 assets/css/theme.min.css
 assets/js/theme.min.js
+themes
+slides
 theme
 slide.md

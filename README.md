@@ -19,6 +19,7 @@ $ gulp serve   # the sample slide will be shown on your browser
 ### Create new slide
 
 ```bash
+$ mkdir slides
 $ vi slides/some-new-slide.md   # and edit it
 $ cat slides/some-new-slide.md
 # Page 1
@@ -33,7 +34,7 @@ $ gulp serve
 ### Create your own theme
 
 ```bash
-$ mkdir themes/your-own-theme
+$ mkdir -p themes/your-own-theme
 $ vi themes/your-own-theme/style.css   # and edit it
 $ cat themes/your-own-theme/style.class
 .remark-slide-content {
