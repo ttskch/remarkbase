@@ -5,7 +5,7 @@ Theming and templating base for [remarkjs](https://github.com/gnab/remark).
 ## Getting started
 
 ```bash
-$ git clone git@github.com:qckanemoto/remarkbase.git
+$ git clone git@github.com:ttskch/remarkbase.git
 $ cd remarkbase
 $ npm install --global gulp   # if you need
 $ npm install
