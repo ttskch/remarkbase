@@ -132,3 +132,7 @@ On next paragraph, floats are automatically cleared.
 ## See also
 
 * [Official wiki of remarkjs](https://github.com/gnab/remark/wiki)
+
+## License
+
+* [MIT License](./LICENSE)
